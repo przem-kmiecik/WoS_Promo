@@ -1,0 +1,22 @@
+.main-slider{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.slide-button-prev, .slide-button-next{
+  font-size: 70px;
+  font-weight: 700;
+  position: absolute;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.slide-button-prev{
+  top: 50%;
+}
+
+.slide-button-next{
+  top: 50%;
+  right: 0;
+}
